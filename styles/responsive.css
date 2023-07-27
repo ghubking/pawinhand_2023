@@ -5,7 +5,8 @@ media max-width의 첫번째 조건 값은 웹사이트 width값 기준으로 �
 자연스러운 반응형웹을 설계한다. */
 @media screen and (max-width:1160px) {
     /* 1160px 이하일경우 좌우 15px 여백적용 */
-    header {width:calc(100% - 30px);}
+    header {width:calc(100% - 30px);
+}
 } /* *1160 end */
 @media screen and (max-width:900px) {
     header nav ul {display: none;}   /* 900px 이하가되면 nav를 지우고 m.nav를 나타나게 */
@@ -23,4 +24,9 @@ media max-width의 첫번째 조건 값은 웹사이트 width값 기준으로 �
     header nav .m_nav span:nth-child(1) {}
     header nav .m_nav span:nth-child(2) {}
     header nav .m_nav span:nth-child(3) {}
+    /* m-nav-open */
+    header .m_nav_open {
+        background: lime;
+        display: block;
+    }
 }/* 900 end */
