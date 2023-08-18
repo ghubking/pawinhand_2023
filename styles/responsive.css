@@ -13,7 +13,7 @@ media max-width의 첫번째 조건 값은 웹사이트 width값 기준으로 �
     header nav ul {display: none;}   /* 900px 이하가되면 nav를 지우고 m.nav를 나타나게 */
     header nav .m_nav {
         width:40px; height:40px;
-        background: lime;
+        
         display: flex; flex-flow: column nowrap;
         justify-content: space-between;
     }
@@ -27,7 +27,7 @@ media max-width의 첫번째 조건 값은 웹사이트 width값 기준으로 �
     header nav .m_nav span:nth-child(3) {}
     /* m-nav-open */
     header nav.m_nav_open {
-        background: lime;
+        
         display: block;
     }
     /* pawin-slide */
